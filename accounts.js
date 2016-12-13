@@ -1,7 +1,7 @@
 var Firebase = require('firebase');
 var crypto = require('crypto');
 
-var firebase = new Firebase('https://wicker-tuts.firebaseio.com/');
+var firebase = new Firebase('https://wiki-d3033.firebaseio.com/');
 var users = firebase.child('users');
 
 function hash (password) {
